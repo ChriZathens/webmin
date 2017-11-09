@@ -478,10 +478,10 @@ schema_desc=Before Webmin can use an LDAP server to store users and groups it mu
 schema_download=Download schema file : <a href=$1>$1</a>
 
 twofactor_err=Failed to setup two-factor authentication
-twofactor_euser=Your Webmin user was not found!
-twofactor_title=Two-Factor Authentication
-twofactor_disable=Disable Two-Factor Authentication
-twofactor_already=Your Webmin login already has two-factor authentication enabled with provider $1 and account ID $2.
+twofactor_euser=Ο Webmin χρήστης σας δεν βρέθηκε!
+twofactor_title=Έλεγχος Ταυτότητας Δύο Παραγόντων
+twofactor_disable=Απενεργοποίηση Ελέγχου Ταυτότητας Δύο Παραγόντων
+twofactor_already=Η σύνδεσή σας στο Webmin ήδη έχει ενεργό τον έλεγχο ταυτότητας δύο παραγόντωνμε τον παροχέα $1 και ID λογαριασμού $2.
 twofactor_already2=Webmin login $3 already has two-factor authentication enabled with provider $1 and account ID $2.
 twofactor_desc=This page allows you to enable two-factor authentication for your Webmin login using <a href='$2' target=_blank>$1</a>. Once active, an additional authentication token will be required when logging into Webmin.
 twofactor_desc2=This page allows you to enable two-factor authentication for Webmin login $3 using <a href='$2' target=_blank>$1</a>. Once active, an additional authentication token will be required when logging into Webmin.
