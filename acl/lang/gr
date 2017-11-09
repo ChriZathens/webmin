@@ -474,17 +474,17 @@ makedn_done=.. ολοκληρώθηκε
 makedn_still=Βρέθηκαν κάποια προβλήματα ακόμη και μετά την δημιουργία του DN : $1
 
 schema_title=Λήψη Σχήματος LDAP
-schema_desc=Before Webmin can use an LDAP server to store users and groups it must be configured to use the schema below. This can typically be done by saving the schema definition in <tt>/etc/ldap/schema</tt> or <tt>/etc/openldap/schema</tt> as <tt>webmin.schema</tt>, then configuring the server to load that schema file.
-schema_download=Download schema file : <a href=$1>$1</a>
+schema_desc=Πριν μπορέσει το Webmin να χρησιμοποιήσει έναν διακομιστή LDAP server για να αποθηκεύει χρήστες και ομάδες, πρέπει να ρυθμιστεί για να χρησιμοποιήσει το παρακάτω σχήμα. Αυτό τυπικά μπορεί να γίνει αποθηκεύοντας τον ορισμό του σχήματος στο <tt>/etc/ldap/schema</tt> ή στο <tt>/etc/openldap/schema</tt> σαν <tt>webmin.schema</tt>, και μετά να ρυθμίσετε το διακομιστεί ώστε να φορτώνει αυτό το αρχείο σχήματος.
+schema_download=Λήψη αρχείου σχήματος : <a href=$1>$1</a>
 
-twofactor_err=Failed to setup two-factor authentication
+twofactor_err=Αποτυχία ρύθμισης ελέγχου ταυτότητας δύο παραγόντων
 twofactor_euser=Ο Webmin χρήστης σας δεν βρέθηκε!
 twofactor_title=Έλεγχος Ταυτότητας Δύο Παραγόντων
 twofactor_disable=Απενεργοποίηση Ελέγχου Ταυτότητας Δύο Παραγόντων
-twofactor_already=Η σύνδεσή σας στο Webmin ήδη έχει ενεργό τον έλεγχο ταυτότητας δύο παραγόντωνμε τον παροχέα $1 και ID λογαριασμού $2.
-twofactor_already2=Webmin login $3 already has two-factor authentication enabled with provider $1 and account ID $2.
-twofactor_desc=This page allows you to enable two-factor authentication for your Webmin login using <a href='$2' target=_blank>$1</a>. Once active, an additional authentication token will be required when logging into Webmin.
-twofactor_desc2=This page allows you to enable two-factor authentication for Webmin login $3 using <a href='$2' target=_blank>$1</a>. Once active, an additional authentication token will be required when logging into Webmin.
+twofactor_already=Η σύνδεσή σας στο Webmin ήδη έχει ενεργό τον έλεγχο ταυτότητας δύο παραγόντων με τον παροχέα $1 και ID λογαριασμού $2.
+twofactor_already2=Η σύνδεση Webmin $3 ήδη έχει ενεργό τον έλεγχο ταυτότητας δύο παραγόντων με τον παροχέα $1 και ID λογαριασμού $2.
+twofactor_desc=Αυτή η σελίδα σας επιτρέπει να ενεργοποιήσετε έλεγχο ταυτότητας δύο παραγόντων για τη Webmin σύνδεσή σας χρησιμοποιώντας <a href='$2' target=_blank>$1</a>. Μόλις ενεργοποιηθεί, ένα επιπλέον διακριτικό ελέγχου ταυτότητας θα απαιτείται όταν συνδέεστε στο Webmin.
+twofactor_desc2=Αυτή η σελίδα σας επιτρέπει να ενεργοποιήσετε έλεγχο ταυτότητας δύο παραγόντων για τη σύνδεση Webmin $3 χρησιμοποιώντας <a href='$2' target=_blank>$1</a>. Μόλις ενεργοποιηθεί, ένα επιπλέον διακριτικό ελέγχου ταυτότητας θα απαιτείται κατά τη σύνδεση στο Webmin.
 twofactor_enable=Εγγραφή για Έλεγχο ταυτότητας δύο παραγόντων
 twofactor_header=Λεπτομέρειες εγγραφής ελέγχου ταυτότητας δύο παραγόντων
 twofactor_enrolling=Γίνεται εγγραφή για έλεγχο ταυτότητας δύο παραγόντων με τον παροχέα $1 ..
